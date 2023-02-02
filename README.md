@@ -29,5 +29,5 @@ Then run:
 
 2. Alternatively, use the below command:
 
-        ```kubectl create namespace <insert-namespace-name-here>```
+        `kubectl create namespace <insert-namespace-name-here>`
         
