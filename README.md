@@ -2,9 +2,9 @@
 
 ### Kubenetes namespaces:
 
-    Namespaces provides a mechanism to isolate and use groups of resources in a shared cluster. Within a namespace: name resources have to be unique and namespace-scoping is applicable for namespace objects like deployments, services, etc. but not for clusterwide objects suck as Nodes, PersistentVolumes, etc.
+Namespaces provides a mechanism to isolate and use groups of resources in a shared cluster. Within a namespace: name resources have to be unique and namespace-scoping is applicable for namespace objects like deployments, services, etc. but not for clusterwide objects suck as Nodes, PersistentVolumes, etc.
 
-    Kubernetes starts with 4 namespaces: default, kube-node-lease, kube-public and kube-system.
+Kubernetes starts with 4 namespaces: default, kube-node-lease, kube-public and kube-system.
 
 #### Viewing namespaces:
 
@@ -29,4 +29,5 @@ Then run:
 
 2. Alternatively, use the below command:
 
-        `kubectl create namespace <insert-namespace-name-here>`
+        ```kubectl create namespace <insert-namespace-name-here>```
+        
